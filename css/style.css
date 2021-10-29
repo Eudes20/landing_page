@@ -1,15 +1,29 @@
-*{
+* {
     margin: 0;
 }
+
 #header {
     width: 100vw;
     height: 10vh;
-    background-color:#ffd4f2;
+    background-color: #ffd4f2;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
 #header-img {
     width: 50px;
     height: 50px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    border-bottom-width: 4px;
+    padding-bottom: 3px;
+    margin: 4px;
+    list-style: none;
+    text-align: center;
 }
