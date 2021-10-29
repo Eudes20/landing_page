@@ -20,10 +20,28 @@ ul {
     justify-content: space-between;
 }
 
-.nav-link {
+ul li {
     border-bottom-width: 4px;
     padding-bottom: 3px;
     margin: 4px;
     list-style: none;
     text-align: center;
 }
+
+#home,#gallery,#aboutus{
+    width: 100vw;
+    height: 100vh;
+}
+
+#home{
+   background-color: tomato;
+}
+
+#gallery{
+    background-color: turquoise;
+ }
+
+
+#aboutus{
+    background-color: yellowgreen;
+ }
