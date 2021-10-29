@@ -8,6 +8,7 @@
     background-color: #ffd4f2;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 #header-img {
@@ -26,4 +27,11 @@ ul {
     margin: 4px;
     list-style: none;
     text-align: center;
+}
+
+#video {
+    max-height: 500px;
+    height: auto;
+    max-width: 600px;
+    width: auto;
 }
