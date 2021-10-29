@@ -34,15 +34,23 @@ ul li {
     height: 100vh;
     width: 100vw;
 }
-#gallery,#aboutus{
+
+#gallery,
+#aboutus {
     width: 100vw;
     height: 100vh;
 }
 
-#gallery{
+#gallery {
     background-color: turquoise;
- }
+}
 
-#aboutus{
+#aboutus {
     background-color: yellowgreen;
- }
+}
+
+@media (max-width: 756px) {
+    #gallery {
+        background-color: pink;
+    }
+}
