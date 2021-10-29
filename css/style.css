@@ -29,29 +29,19 @@ ul li {
     text-align: center;
 }
 
-<<<<<<< HEAD
 #video {
-    max-height: 500px;
-    height: auto;
-    max-width: 600px;
-    width: auto;
+    height: 100vh;
+    width: 100vw;
 }
-=======
-#home,#gallery,#aboutus{
+#gallery,#aboutus{
     width: 100vw;
     height: 100vh;
-}
-
-#home{
-   background-color: tomato;
 }
 
 #gallery{
     background-color: turquoise;
  }
 
-
 #aboutus{
     background-color: yellowgreen;
  }
->>>>>>> c938835803b5cdaf86dd758fea08b4decc9dfe1f
